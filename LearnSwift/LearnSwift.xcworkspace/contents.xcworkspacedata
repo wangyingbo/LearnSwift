@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:L026Ctrl/L026Ctrl.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:L025General/L025General.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:L024Protocol/L024Protocol.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:L023Extension/L023Extension.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:L022ClassChange/L022ClassChange.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:L021ARC/L021ARC.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:L020OptionalChaining/L020OptionalChaining.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:L019Deinit/L019Deinit.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:L018Init/L018Init.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:L017Index/L017Index.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:L016Method/L016Method.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:L015Property/L015Property.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:L014Strucment/L014Strucment.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:L013Block/L013Block.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:L012Enums/L012Enums.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:L011HelloIOS/L011HelloIOS.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:L010OO/L010OO.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:L009Funcs/L009Funcs.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:L008Flow/L008Flow.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:L007Loop/L007Loop.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:L006Dic/L006Dic.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:L005Array/L005Array.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:L004Strings/L004Strings.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:L003Types/L003Types.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:L002VarsAndConstants/L002VarsAndConstants.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:L001-HelloWorld/L001-HelloWorld.xcodeproj">
+   </FileRef>
+</Workspace>
