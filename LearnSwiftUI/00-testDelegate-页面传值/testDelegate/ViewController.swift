@@ -19,9 +19,9 @@ class ViewController: UIViewController {
     @IBAction func sendNextClick(sender: AnyObject) {
         let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
         let other = storyboard.instantiateViewControllerWithIdentifier("otherVCSB") as! otherVC
-        other.tempStr = sendNextTF.text
         other.delegate = self
-        //other.receiveLastTF.text = sendNextTF?.text  //这样写容易崩溃，原因还没找到
+        //other.receiveLastTF?.text = sendNextTF.text //这样写容易崩溃，原因还没找到
+        other.tempStr = sendNextTF.text
         self.navigationController?.pushViewController(other, animated: true)
     }
     

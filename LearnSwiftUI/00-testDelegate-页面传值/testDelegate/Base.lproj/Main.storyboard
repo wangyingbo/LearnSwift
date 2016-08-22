@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="send to otherVC info" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="o5d-aG-kqR">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="send to otherVC info" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="o5d-aG-kqR">
                                 <rect key="frame" x="252" y="200" width="97" height="30"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -93,14 +93,14 @@
                                 <exclude reference="aiz-cg-7bm"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="E8o-Lw-T1Y"/>
-                                <exclude reference="KL0-K5-onj"/>
-                                <exclude reference="hbr-rt-hsR"/>
-                                <exclude reference="pkV-hb-DiQ"/>
                                 <exclude reference="EFn-1J-feo"/>
                                 <exclude reference="V9A-zw-1ka"/>
+                                <exclude reference="hbr-rt-hsR"/>
+                                <exclude reference="pkV-hb-DiQ"/>
                                 <exclude reference="9FV-cl-wTp"/>
                                 <exclude reference="scl-TQ-RGi"/>
+                                <exclude reference="E8o-Lw-T1Y"/>
+                                <exclude reference="KL0-K5-onj"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -110,14 +110,14 @@
                                 <include reference="aiz-cg-7bm"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="E8o-Lw-T1Y"/>
-                                <include reference="KL0-K5-onj"/>
-                                <include reference="hbr-rt-hsR"/>
-                                <include reference="pkV-hb-DiQ"/>
                                 <include reference="EFn-1J-feo"/>
                                 <include reference="V9A-zw-1ka"/>
+                                <include reference="hbr-rt-hsR"/>
+                                <include reference="pkV-hb-DiQ"/>
                                 <include reference="9FV-cl-wTp"/>
                                 <include reference="scl-TQ-RGi"/>
+                                <include reference="E8o-Lw-T1Y"/>
+                                <include reference="KL0-K5-onj"/>
                             </mask>
                         </variation>
                     </view>
@@ -141,9 +141,10 @@
                         <viewControllerLayoutGuide type="bottom" id="flx-Mk-wFH"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="H2X-V7-IUi">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="send to lastVC info" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hBB-jX-p3z">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="send to lastVC info" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hBB-jX-p3z">
                                 <rect key="frame" x="252" y="200" width="97" height="30"/>
                                 <color key="backgroundColor" red="0.85794957579999997" green="0.85055342010000001" blue="0.87537484219999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -201,14 +202,14 @@
                                 <exclude reference="tNa-Vp-Lzj"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="MIE-Ip-xKt"/>
-                                <exclude reference="eGB-Wl-rkr"/>
-                                <exclude reference="5KF-V5-pb7"/>
-                                <exclude reference="ltt-Y9-d6B"/>
                                 <exclude reference="JEO-sp-1wf"/>
                                 <exclude reference="Zev-AC-SpU"/>
+                                <exclude reference="5KF-V5-pb7"/>
+                                <exclude reference="ltt-Y9-d6B"/>
                                 <exclude reference="FvC-Q8-uQ0"/>
                                 <exclude reference="ebF-00-aZU"/>
+                                <exclude reference="MIE-Ip-xKt"/>
+                                <exclude reference="eGB-Wl-rkr"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -219,14 +220,14 @@
                                 <include reference="tNa-Vp-Lzj"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="MIE-Ip-xKt"/>
-                                <include reference="eGB-Wl-rkr"/>
-                                <include reference="5KF-V5-pb7"/>
-                                <include reference="ltt-Y9-d6B"/>
                                 <include reference="JEO-sp-1wf"/>
                                 <include reference="Zev-AC-SpU"/>
+                                <include reference="5KF-V5-pb7"/>
+                                <include reference="ltt-Y9-d6B"/>
                                 <include reference="FvC-Q8-uQ0"/>
                                 <include reference="ebF-00-aZU"/>
+                                <include reference="MIE-Ip-xKt"/>
+                                <include reference="eGB-Wl-rkr"/>
                             </mask>
                         </variation>
                     </view>
