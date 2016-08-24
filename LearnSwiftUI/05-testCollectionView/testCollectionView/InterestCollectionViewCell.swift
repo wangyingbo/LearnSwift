@@ -12,14 +12,13 @@ class InterestCollectionViewCell: UICollectionViewCell
 {
     
     var interest: Interest! {
-        didSet {
+        didSet {//重写了set方法
             updateUI()
         }
     }
     
     @IBOutlet weak var featuredImageView: UIImageView!
     @IBOutlet weak var interestTitleLabel: UILabel!
-    
     
     private func updateUI() {
         interestTitleLabel?.text! = interest.title
