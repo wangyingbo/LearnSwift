@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="_8_RandomColorization" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Fa-DN-yQ3">
+                                <rect key="frame" x="200" y="200" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="Rgz-W9-nAG"/>
+                                    <constraint firstAttribute="width" constant="200" id="Z0c-qL-8RT"/>
+                                </constraints>
+                                <state key="normal" image="music play"/>
+                                <connections>
+                                    <action selector="playMusic:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vjh-5E-BJr"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="7Fa-DN-yQ3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qov-6Z-0xQ"/>
+                            <constraint firstItem="7Fa-DN-yQ3" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="zxb-5g-Lid"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="button" destination="7Fa-DN-yQ3" id="uRN-IE-nuI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="music play" width="148" height="148"/>
+    </resources>
+</document>
