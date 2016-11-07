@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6893E5A11DD060DE00EE8CD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6893E5A01DD060DE00EE8CD9 /* AppDelegate.swift */; };
+		6893E5A31DD060DE00EE8CD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6893E5A21DD060DE00EE8CD9 /* ViewController.swift */; };
+		6893E5A61DD060DE00EE8CD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6893E5A41DD060DE00EE8CD9 /* Main.storyboard */; };
+		6893E5A81DD060DE00EE8CD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6893E5A71DD060DE00EE8CD9 /* Assets.xcassets */; };
+		6893E5AB1DD060DE00EE8CD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6893E5A91DD060DE00EE8CD9 /* LaunchScreen.storyboard */; };
+		6893E5B61DD060DE00EE8CD9 /* _0_YBSpotifyVideoBackgroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6893E5B51DD060DE00EE8CD9 /* _0_YBSpotifyVideoBackgroundTests.swift */; };
+		6893E5C11DD060DE00EE8CD9 /* _0_YBSpotifyVideoBackgroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6893E5C01DD060DE00EE8CD9 /* _0_YBSpotifyVideoBackgroundUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6893E5B21DD060DE00EE8CD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6893E5951DD060DE00EE8CD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6893E59C1DD060DE00EE8CD9;
+			remoteInfo = "10-YBSpotifyVideoBackground";
+		};
+		6893E5BD1DD060DE00EE8CD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6893E5951DD060DE00EE8CD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6893E59C1DD060DE00EE8CD9;
+			remoteInfo = "10-YBSpotifyVideoBackground";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6893E59D1DD060DE00EE8CD9 /* 10-YBSpotifyVideoBackground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "10-YBSpotifyVideoBackground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6893E5A01DD060DE00EE8CD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6893E5A21DD060DE00EE8CD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6893E5A51DD060DE00EE8CD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6893E5A71DD060DE00EE8CD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6893E5AA1DD060DE00EE8CD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6893E5AC1DD060DE00EE8CD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6893E5B11DD060DE00EE8CD9 /* 10-YBSpotifyVideoBackgroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "10-YBSpotifyVideoBackgroundTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6893E5B51DD060DE00EE8CD9 /* _0_YBSpotifyVideoBackgroundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0_YBSpotifyVideoBackgroundTests.swift; sourceTree = "<group>"; };
+		6893E5B71DD060DE00EE8CD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6893E5BC1DD060DE00EE8CD9 /* 10-YBSpotifyVideoBackgroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "10-YBSpotifyVideoBackgroundUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6893E5C01DD060DE00EE8CD9 /* _0_YBSpotifyVideoBackgroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0_YBSpotifyVideoBackgroundUITests.swift; sourceTree = "<group>"; };
+		6893E5C21DD060DE00EE8CD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6893E59A1DD060DE00EE8CD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6893E5AE1DD060DE00EE8CD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6893E5B91DD060DE00EE8CD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6893E5941DD060DE00EE8CD9 = {
+			isa = PBXGroup;
+			children = (
+				6893E59F1DD060DE00EE8CD9 /* 10-YBSpotifyVideoBackground */,
+				6893E5B41DD060DE00EE8CD9 /* 10-YBSpotifyVideoBackgroundTests */,
+				6893E5BF1DD060DE00EE8CD9 /* 10-YBSpotifyVideoBackgroundUITests */,
+				6893E59E1DD060DE00EE8CD9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6893E59E1DD060DE00EE8CD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6893E59D1DD060DE00EE8CD9 /* 10-YBSpotifyVideoBackground.app */,
+				6893E5B11DD060DE00EE8CD9 /* 10-YBSpotifyVideoBackgroundTests.xctest */,
+				6893E5BC1DD060DE00EE8CD9 /* 10-YBSpotifyVideoBackgroundUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6893E59F1DD060DE00EE8CD9 /* 10-YBSpotifyVideoBackground */ = {
+			isa = PBXGroup;
+			children = (
+				6893E5A01DD060DE00EE8CD9 /* AppDelegate.swift */,
+				6893E5A21DD060DE00EE8CD9 /* ViewController.swift */,
+				6893E5A41DD060DE00EE8CD9 /* Main.storyboard */,
+				6893E5A71DD060DE00EE8CD9 /* Assets.xcassets */,
+				6893E5A91DD060DE00EE8CD9 /* LaunchScreen.storyboard */,
+				6893E5AC1DD060DE00EE8CD9 /* Info.plist */,
+			);
+			path = "10-YBSpotifyVideoBackground";
+			sourceTree = "<group>";
+		};
+		6893E5B41DD060DE00EE8CD9 /* 10-YBSpotifyVideoBackgroundTests */ = {
+			isa = PBXGroup;
+			children = (
+				6893E5B51DD060DE00EE8CD9 /* _0_YBSpotifyVideoBackgroundTests.swift */,
+				6893E5B71DD060DE00EE8CD9 /* Info.plist */,
+			);
+			path = "10-YBSpotifyVideoBackgroundTests";
+			sourceTree = "<group>";
+		};
+		6893E5BF1DD060DE00EE8CD9 /* 10-YBSpotifyVideoBackgroundUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6893E5C01DD060DE00EE8CD9 /* _0_YBSpotifyVideoBackgroundUITests.swift */,
+				6893E5C21DD060DE00EE8CD9 /* Info.plist */,
+			);
+			path = "10-YBSpotifyVideoBackgroundUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6893E59C1DD060DE00EE8CD9 /* 10-YBSpotifyVideoBackground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6893E5C51DD060DE00EE8CD9 /* Build configuration list for PBXNativeTarget "10-YBSpotifyVideoBackground" */;
+			buildPhases = (
+				6893E5991DD060DE00EE8CD9 /* Sources */,
+				6893E59A1DD060DE00EE8CD9 /* Frameworks */,
+				6893E59B1DD060DE00EE8CD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "10-YBSpotifyVideoBackground";
+			productName = "10-YBSpotifyVideoBackground";
+			productReference = 6893E59D1DD060DE00EE8CD9 /* 10-YBSpotifyVideoBackground.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6893E5B01DD060DE00EE8CD9 /* 10-YBSpotifyVideoBackgroundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6893E5C81DD060DE00EE8CD9 /* Build configuration list for PBXNativeTarget "10-YBSpotifyVideoBackgroundTests" */;
+			buildPhases = (
+				6893E5AD1DD060DE00EE8CD9 /* Sources */,
+				6893E5AE1DD060DE00EE8CD9 /* Frameworks */,
+				6893E5AF1DD060DE00EE8CD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6893E5B31DD060DE00EE8CD9 /* PBXTargetDependency */,
+			);
+			name = "10-YBSpotifyVideoBackgroundTests";
+			productName = "10-YBSpotifyVideoBackgroundTests";
+			productReference = 6893E5B11DD060DE00EE8CD9 /* 10-YBSpotifyVideoBackgroundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6893E5BB1DD060DE00EE8CD9 /* 10-YBSpotifyVideoBackgroundUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6893E5CB1DD060DE00EE8CD9 /* Build configuration list for PBXNativeTarget "10-YBSpotifyVideoBackgroundUITests" */;
+			buildPhases = (
+				6893E5B81DD060DE00EE8CD9 /* Sources */,
+				6893E5B91DD060DE00EE8CD9 /* Frameworks */,
+				6893E5BA1DD060DE00EE8CD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6893E5BE1DD060DE00EE8CD9 /* PBXTargetDependency */,
+			);
+			name = "10-YBSpotifyVideoBackgroundUITests";
+			productName = "10-YBSpotifyVideoBackgroundUITests";
+			productReference = 6893E5BC1DD060DE00EE8CD9 /* 10-YBSpotifyVideoBackgroundUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6893E5951DD060DE00EE8CD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "王迎博";
+				TargetAttributes = {
+					6893E59C1DD060DE00EE8CD9 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					6893E5B01DD060DE00EE8CD9 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 6893E59C1DD060DE00EE8CD9;
+					};
+					6893E5BB1DD060DE00EE8CD9 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 6893E59C1DD060DE00EE8CD9;
+					};
+				};
+			};
+			buildConfigurationList = 6893E5981DD060DE00EE8CD9 /* Build configuration list for PBXProject "10-YBSpotifyVideoBackground" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6893E5941DD060DE00EE8CD9;
+			productRefGroup = 6893E59E1DD060DE00EE8CD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6893E59C1DD060DE00EE8CD9 /* 10-YBSpotifyVideoBackground */,
+				6893E5B01DD060DE00EE8CD9 /* 10-YBSpotifyVideoBackgroundTests */,
+				6893E5BB1DD060DE00EE8CD9 /* 10-YBSpotifyVideoBackgroundUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6893E59B1DD060DE00EE8CD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6893E5AB1DD060DE00EE8CD9 /* LaunchScreen.storyboard in Resources */,
+				6893E5A81DD060DE00EE8CD9 /* Assets.xcassets in Resources */,
+				6893E5A61DD060DE00EE8CD9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6893E5AF1DD060DE00EE8CD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6893E5BA1DD060DE00EE8CD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6893E5991DD060DE00EE8CD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6893E5A31DD060DE00EE8CD9 /* ViewController.swift in Sources */,
+				6893E5A11DD060DE00EE8CD9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6893E5AD1DD060DE00EE8CD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6893E5B61DD060DE00EE8CD9 /* _0_YBSpotifyVideoBackgroundTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6893E5B81DD060DE00EE8CD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6893E5C11DD060DE00EE8CD9 /* _0_YBSpotifyVideoBackgroundUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6893E5B31DD060DE00EE8CD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6893E59C1DD060DE00EE8CD9 /* 10-YBSpotifyVideoBackground */;
+			targetProxy = 6893E5B21DD060DE00EE8CD9 /* PBXContainerItemProxy */;
+		};
+		6893E5BE1DD060DE00EE8CD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6893E59C1DD060DE00EE8CD9 /* 10-YBSpotifyVideoBackground */;
+			targetProxy = 6893E5BD1DD060DE00EE8CD9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6893E5A41DD060DE00EE8CD9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6893E5A51DD060DE00EE8CD9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6893E5A91DD060DE00EE8CD9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6893E5AA1DD060DE00EE8CD9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6893E5C31DD060DE00EE8CD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6893E5C41DD060DE00EE8CD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6893E5C61DD060DE00EE8CD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "10-YBSpotifyVideoBackground/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiapin.www.-0-YBSpotifyVideoBackground";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6893E5C71DD060DE00EE8CD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "10-YBSpotifyVideoBackground/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiapin.www.-0-YBSpotifyVideoBackground";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6893E5C91DD060DE00EE8CD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "10-YBSpotifyVideoBackgroundTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiapin.www.-0-YBSpotifyVideoBackgroundTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/10-YBSpotifyVideoBackground.app/10-YBSpotifyVideoBackground";
+			};
+			name = Debug;
+		};
+		6893E5CA1DD060DE00EE8CD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "10-YBSpotifyVideoBackgroundTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiapin.www.-0-YBSpotifyVideoBackgroundTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/10-YBSpotifyVideoBackground.app/10-YBSpotifyVideoBackground";
+			};
+			name = Release;
+		};
+		6893E5CC1DD060DE00EE8CD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "10-YBSpotifyVideoBackgroundUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiapin.www.-0-YBSpotifyVideoBackgroundUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "10-YBSpotifyVideoBackground";
+			};
+			name = Debug;
+		};
+		6893E5CD1DD060DE00EE8CD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "10-YBSpotifyVideoBackgroundUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiapin.www.-0-YBSpotifyVideoBackgroundUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "10-YBSpotifyVideoBackground";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6893E5981DD060DE00EE8CD9 /* Build configuration list for PBXProject "10-YBSpotifyVideoBackground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6893E5C31DD060DE00EE8CD9 /* Debug */,
+				6893E5C41DD060DE00EE8CD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6893E5C51DD060DE00EE8CD9 /* Build configuration list for PBXNativeTarget "10-YBSpotifyVideoBackground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6893E5C61DD060DE00EE8CD9 /* Debug */,
+				6893E5C71DD060DE00EE8CD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6893E5C81DD060DE00EE8CD9 /* Build configuration list for PBXNativeTarget "10-YBSpotifyVideoBackgroundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6893E5C91DD060DE00EE8CD9 /* Debug */,
+				6893E5CA1DD060DE00EE8CD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6893E5CB1DD060DE00EE8CD9 /* Build configuration list for PBXNativeTarget "10-YBSpotifyVideoBackgroundUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6893E5CC1DD060DE00EE8CD9 /* Debug */,
+				6893E5CD1DD060DE00EE8CD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6893E5951DD060DE00EE8CD9 /* Project object */;
+}
