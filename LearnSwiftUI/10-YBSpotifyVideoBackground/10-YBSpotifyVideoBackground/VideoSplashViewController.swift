@@ -55,10 +55,7 @@ public class VideoSplashViewController: UIViewController {
     public var alwaysRepeat: Bool = true {
         didSet {
             if alwaysRepeat {
-                NSNotificationCenter.defaultCenter().addObserver(self,
-                                                                 selector: "playerItemDidReachEnd",
-                                                                 name: AVPlayerItemDidPlayToEndTimeNotification,
-                                                                 object: moviePlayer.player?.currentItem)
+                NSNotificationCenter.defaultCenter().addObserver(self,selector: #selector(VideoSplashViewController.playerItemDidReachEnd),name: AVPlayerItemDidPlayToEndTimeNotification,object: moviePlayer.player?.currentItem)
             }
         }
     }

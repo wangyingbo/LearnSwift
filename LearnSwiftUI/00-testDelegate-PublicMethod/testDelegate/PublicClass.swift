@@ -10,6 +10,7 @@ import UIKit
 
 public class PublicClass: NSObject {
 
+    
     /**
      公共类的参数为函数的方法。相当于OC中的block
      - parameter para1:      参数1
