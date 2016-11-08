@@ -12,7 +12,6 @@ public class PublicClass: NSObject {
 
     /**
      公共类的参数为函数的方法。相当于OC中的block
-     
      - parameter para1:      参数1
      - parameter para2:      参数2
      - parameter completion: 函数参数，相当于block 

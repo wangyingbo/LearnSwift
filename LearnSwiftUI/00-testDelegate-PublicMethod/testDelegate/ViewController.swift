@@ -34,12 +34,6 @@ class ViewController: UIViewController {
             YBLog(test1)
             YBLog(test2)
         }
-        
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        
     }
 
 }
