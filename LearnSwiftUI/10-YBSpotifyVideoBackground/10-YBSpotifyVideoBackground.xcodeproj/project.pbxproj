@@ -14,6 +14,10 @@
 		6893E5AB1DD060DE00EE8CD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6893E5A91DD060DE00EE8CD9 /* LaunchScreen.storyboard */; };
 		6893E5B61DD060DE00EE8CD9 /* _0_YBSpotifyVideoBackgroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6893E5B51DD060DE00EE8CD9 /* _0_YBSpotifyVideoBackgroundTests.swift */; };
 		6893E5C11DD060DE00EE8CD9 /* _0_YBSpotifyVideoBackgroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6893E5C01DD060DE00EE8CD9 /* _0_YBSpotifyVideoBackgroundUITests.swift */; };
+		6893E6101DD173F200EE8CD9 /* VideoSplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6893E60F1DD173F200EE8CD9 /* VideoSplashViewController.swift */; };
+		6893E6121DD1745C00EE8CD9 /* VideoCutter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6893E6111DD1745C00EE8CD9 /* VideoCutter.swift */; };
+		6893E6151DD18F7700EE8CD9 /* moments.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6893E6141DD18C9700EE8CD9 /* moments.mp4 */; };
+		6893E6171DD1929900EE8CD9 /* PublicMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6893E6161DD1929900EE8CD9 /* PublicMethod.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		6893E5BC1DD060DE00EE8CD9 /* 10-YBSpotifyVideoBackgroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "10-YBSpotifyVideoBackgroundUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6893E5C01DD060DE00EE8CD9 /* _0_YBSpotifyVideoBackgroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0_YBSpotifyVideoBackgroundUITests.swift; sourceTree = "<group>"; };
 		6893E5C21DD060DE00EE8CD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6893E60F1DD173F200EE8CD9 /* VideoSplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoSplashViewController.swift; sourceTree = "<group>"; };
+		6893E6111DD1745C00EE8CD9 /* VideoCutter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCutter.swift; sourceTree = "<group>"; };
+		6893E6141DD18C9700EE8CD9 /* moments.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = moments.mp4; sourceTree = "<group>"; };
+		6893E6161DD1929900EE8CD9 /* PublicMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublicMethod.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +105,12 @@
 		6893E59F1DD060DE00EE8CD9 /* 10-YBSpotifyVideoBackground */ = {
 			isa = PBXGroup;
 			children = (
+				6893E6141DD18C9700EE8CD9 /* moments.mp4 */,
 				6893E5A01DD060DE00EE8CD9 /* AppDelegate.swift */,
 				6893E5A21DD060DE00EE8CD9 /* ViewController.swift */,
+				6893E6161DD1929900EE8CD9 /* PublicMethod.swift */,
+				6893E60F1DD173F200EE8CD9 /* VideoSplashViewController.swift */,
+				6893E6111DD1745C00EE8CD9 /* VideoCutter.swift */,
 				6893E5A41DD060DE00EE8CD9 /* Main.storyboard */,
 				6893E5A71DD060DE00EE8CD9 /* Assets.xcassets */,
 				6893E5A91DD060DE00EE8CD9 /* LaunchScreen.storyboard */,
@@ -229,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6893E6151DD18F7700EE8CD9 /* moments.mp4 in Resources */,
 				6893E5AB1DD060DE00EE8CD9 /* LaunchScreen.storyboard in Resources */,
 				6893E5A81DD060DE00EE8CD9 /* Assets.xcassets in Resources */,
 				6893E5A61DD060DE00EE8CD9 /* Main.storyboard in Resources */,
@@ -258,6 +271,9 @@
 			files = (
 				6893E5A31DD060DE00EE8CD9 /* ViewController.swift in Sources */,
 				6893E5A11DD060DE00EE8CD9 /* AppDelegate.swift in Sources */,
+				6893E6121DD1745C00EE8CD9 /* VideoCutter.swift in Sources */,
+				6893E6101DD173F200EE8CD9 /* VideoSplashViewController.swift in Sources */,
+				6893E6171DD1929900EE8CD9 /* PublicMethod.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,8 +416,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "10-YBSpotifyVideoBackground/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jiapin.www.-0-YBSpotifyVideoBackground";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -412,7 +429,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "10-YBSpotifyVideoBackground/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jiapin.www.-0-YBSpotifyVideoBackground";
 				PRODUCT_NAME = "$(TARGET_NAME)";
