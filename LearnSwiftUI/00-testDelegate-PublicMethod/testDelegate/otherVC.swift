@@ -34,6 +34,8 @@ class otherVC: UIViewController {
 
         self.view.backgroundColor = UIColor.whiteColor()
         
+        YBLog("直接打印receiveLastTFT的值:"+self.receiveLastTF.text!)
+        YBLog("直接打印self.tempStr的值:"+self.tempStr!)
         self.receiveLastTF.text = self.tempStr
     }
 

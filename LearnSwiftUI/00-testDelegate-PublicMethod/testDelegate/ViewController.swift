@@ -16,11 +16,11 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var receiveNextTF: UITextField!
     
-    @IBAction func sendNextClick(sender: AnyObject) {
+    @IBAction func sendNextClick(sender: AnyObject){
         let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
         let other = storyboard.instantiateViewControllerWithIdentifier("otherVCSB") as! otherVC
         other.delegate = self
-        //other.receiveLastTF?.text = sendNextTF.text //这样写容易崩溃，原因还没找到
+        other.receiveLastTF?.text = sendNextTF.text //直接这样写的话other.receiveLastTF.text为空，原因未知
         other.tempStr = sendNextTF.text
         self.navigationController?.pushViewController(other, animated: true)
     }
