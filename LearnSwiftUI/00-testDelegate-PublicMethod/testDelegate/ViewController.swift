@@ -29,6 +29,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let publicClass = PublicClass()
+        publicClass.publicBlockMethod(para1: "哈哈", para2: "呵呵") { (test1, test2) in
+            YBLog(test1)
+            YBLog(test2)
+        }
+        
     }
 
     override func didReceiveMemoryWarning() {

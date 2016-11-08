@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		682AAAFE1DD1B0A100223B2B /* PublicClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682AAAFD1DD1B0A100223B2B /* PublicClass.swift */; };
 		6893E6191DD1931600EE8CD9 /* PublicMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6893E6181DD1931600EE8CD9 /* PublicMethod.swift */; };
 		68A7FACB1D65A07600F3488D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A7FACA1D65A07600F3488D /* AppDelegate.swift */; };
 		68A7FACD1D65A07600F3488D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A7FACC1D65A07600F3488D /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		682AAAFD1DD1B0A100223B2B /* PublicClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublicClass.swift; sourceTree = "<group>"; };
 		6893E6181DD1931600EE8CD9 /* PublicMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublicMethod.swift; sourceTree = "<group>"; };
 		68A7FAC71D65A07600F3488D /* testDelegate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testDelegate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68A7FACA1D65A07600F3488D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				68A7FACA1D65A07600F3488D /* AppDelegate.swift */,
 				68A7FACC1D65A07600F3488D /* ViewController.swift */,
 				68A7FAF81D65A09600F3488D /* otherVC.swift */,
+				682AAAFD1DD1B0A100223B2B /* PublicClass.swift */,
 				68A7FACE1D65A07600F3488D /* Main.storyboard */,
 				68A7FAD11D65A07600F3488D /* Assets.xcassets */,
 				68A7FAD31D65A07600F3488D /* LaunchScreen.storyboard */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				68A7FACD1D65A07600F3488D /* ViewController.swift in Sources */,
+				682AAAFE1DD1B0A100223B2B /* PublicClass.swift in Sources */,
 				6893E6191DD1931600EE8CD9 /* PublicMethod.swift in Sources */,
 				68A7FACB1D65A07600F3488D /* AppDelegate.swift in Sources */,
 				68A7FAF91D65A09600F3488D /* otherVC.swift in Sources */,
@@ -408,7 +412,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = testDelegate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jiapin.www.testDelegate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -419,6 +425,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = testDelegate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jiapin.www.testDelegate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
