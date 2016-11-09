@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BE3A9439299292938CF7D5C /* libPods-YBClearTabelViewCell.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F52178401E7762A8602AAD7F /* libPods-YBClearTabelViewCell.a */; };
+		680D36431DD322B0009E6A8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680D36421DD322B0009E6A8D /* AppDelegate.swift */; };
+		680D36451DD322B0009E6A8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680D36441DD322B0009E6A8D /* ViewController.swift */; };
+		680D36481DD322B0009E6A8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 680D36461DD322B0009E6A8D /* Main.storyboard */; };
+		680D364A1DD322B0009E6A8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 680D36491DD322B0009E6A8D /* Assets.xcassets */; };
+		680D364D1DD322B0009E6A8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 680D364B1DD322B0009E6A8D /* LaunchScreen.storyboard */; };
+		680D36581DD322B0009E6A8D /* YBClearTabelViewCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680D36571DD322B0009E6A8D /* YBClearTabelViewCellTests.swift */; };
+		680D36631DD322B0009E6A8D /* YBClearTabelViewCellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680D36621DD322B0009E6A8D /* YBClearTabelViewCellUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		680D36541DD322B0009E6A8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 680D36371DD322B0009E6A8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 680D363E1DD322B0009E6A8D;
+			remoteInfo = YBClearTabelViewCell;
+		};
+		680D365F1DD322B0009E6A8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 680D36371DD322B0009E6A8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 680D363E1DD322B0009E6A8D;
+			remoteInfo = YBClearTabelViewCell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		286F53C29038C21A0A70F238 /* Pods-YBClearTabelViewCell.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YBClearTabelViewCell.release.xcconfig"; path = "Pods/Target Support Files/Pods-YBClearTabelViewCell/Pods-YBClearTabelViewCell.release.xcconfig"; sourceTree = "<group>"; };
+		5814B509E2E70A7A9BAB22E3 /* Pods-YBClearTabelViewCell.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YBClearTabelViewCell.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YBClearTabelViewCell/Pods-YBClearTabelViewCell.debug.xcconfig"; sourceTree = "<group>"; };
+		680D363F1DD322B0009E6A8D /* YBClearTabelViewCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YBClearTabelViewCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		680D36421DD322B0009E6A8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		680D36441DD322B0009E6A8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		680D36471DD322B0009E6A8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		680D36491DD322B0009E6A8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		680D364C1DD322B0009E6A8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		680D364E1DD322B0009E6A8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		680D36531DD322B0009E6A8D /* YBClearTabelViewCellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YBClearTabelViewCellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		680D36571DD322B0009E6A8D /* YBClearTabelViewCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YBClearTabelViewCellTests.swift; sourceTree = "<group>"; };
+		680D36591DD322B0009E6A8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		680D365E1DD322B0009E6A8D /* YBClearTabelViewCellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YBClearTabelViewCellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		680D36621DD322B0009E6A8D /* YBClearTabelViewCellUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YBClearTabelViewCellUITests.swift; sourceTree = "<group>"; };
+		680D36641DD322B0009E6A8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F52178401E7762A8602AAD7F /* libPods-YBClearTabelViewCell.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YBClearTabelViewCell.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		680D363C1DD322B0009E6A8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BE3A9439299292938CF7D5C /* libPods-YBClearTabelViewCell.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		680D36501DD322B0009E6A8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		680D365B1DD322B0009E6A8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3051EA8EED04FDF8686F5148 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F52178401E7762A8602AAD7F /* libPods-YBClearTabelViewCell.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		680D36361DD322B0009E6A8D = {
+			isa = PBXGroup;
+			children = (
+				680D36411DD322B0009E6A8D /* YBClearTabelViewCell */,
+				680D36561DD322B0009E6A8D /* YBClearTabelViewCellTests */,
+				680D36611DD322B0009E6A8D /* YBClearTabelViewCellUITests */,
+				680D36401DD322B0009E6A8D /* Products */,
+				A726CAEE68591012D1DCBBA7 /* Pods */,
+				3051EA8EED04FDF8686F5148 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		680D36401DD322B0009E6A8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				680D363F1DD322B0009E6A8D /* YBClearTabelViewCell.app */,
+				680D36531DD322B0009E6A8D /* YBClearTabelViewCellTests.xctest */,
+				680D365E1DD322B0009E6A8D /* YBClearTabelViewCellUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		680D36411DD322B0009E6A8D /* YBClearTabelViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				680D36421DD322B0009E6A8D /* AppDelegate.swift */,
+				680D36441DD322B0009E6A8D /* ViewController.swift */,
+				680D36461DD322B0009E6A8D /* Main.storyboard */,
+				680D36491DD322B0009E6A8D /* Assets.xcassets */,
+				680D364B1DD322B0009E6A8D /* LaunchScreen.storyboard */,
+				680D364E1DD322B0009E6A8D /* Info.plist */,
+			);
+			path = YBClearTabelViewCell;
+			sourceTree = "<group>";
+		};
+		680D36561DD322B0009E6A8D /* YBClearTabelViewCellTests */ = {
+			isa = PBXGroup;
+			children = (
+				680D36571DD322B0009E6A8D /* YBClearTabelViewCellTests.swift */,
+				680D36591DD322B0009E6A8D /* Info.plist */,
+			);
+			path = YBClearTabelViewCellTests;
+			sourceTree = "<group>";
+		};
+		680D36611DD322B0009E6A8D /* YBClearTabelViewCellUITests */ = {
+			isa = PBXGroup;
+			children = (
+				680D36621DD322B0009E6A8D /* YBClearTabelViewCellUITests.swift */,
+				680D36641DD322B0009E6A8D /* Info.plist */,
+			);
+			path = YBClearTabelViewCellUITests;
+			sourceTree = "<group>";
+		};
+		A726CAEE68591012D1DCBBA7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5814B509E2E70A7A9BAB22E3 /* Pods-YBClearTabelViewCell.debug.xcconfig */,
+				286F53C29038C21A0A70F238 /* Pods-YBClearTabelViewCell.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		680D363E1DD322B0009E6A8D /* YBClearTabelViewCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 680D36671DD322B0009E6A8D /* Build configuration list for PBXNativeTarget "YBClearTabelViewCell" */;
+			buildPhases = (
+				1D7483A55984EBFF15585203 /* [CP] Check Pods Manifest.lock */,
+				680D363B1DD322B0009E6A8D /* Sources */,
+				680D363C1DD322B0009E6A8D /* Frameworks */,
+				680D363D1DD322B0009E6A8D /* Resources */,
+				A2E96C213D2789D3A45B1D0A /* [CP] Embed Pods Frameworks */,
+				A08C4D00B0982BCFC9851DF2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YBClearTabelViewCell;
+			productName = YBClearTabelViewCell;
+			productReference = 680D363F1DD322B0009E6A8D /* YBClearTabelViewCell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		680D36521DD322B0009E6A8D /* YBClearTabelViewCellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 680D366A1DD322B0009E6A8D /* Build configuration list for PBXNativeTarget "YBClearTabelViewCellTests" */;
+			buildPhases = (
+				680D364F1DD322B0009E6A8D /* Sources */,
+				680D36501DD322B0009E6A8D /* Frameworks */,
+				680D36511DD322B0009E6A8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				680D36551DD322B0009E6A8D /* PBXTargetDependency */,
+			);
+			name = YBClearTabelViewCellTests;
+			productName = YBClearTabelViewCellTests;
+			productReference = 680D36531DD322B0009E6A8D /* YBClearTabelViewCellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		680D365D1DD322B0009E6A8D /* YBClearTabelViewCellUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 680D366D1DD322B0009E6A8D /* Build configuration list for PBXNativeTarget "YBClearTabelViewCellUITests" */;
+			buildPhases = (
+				680D365A1DD322B0009E6A8D /* Sources */,
+				680D365B1DD322B0009E6A8D /* Frameworks */,
+				680D365C1DD322B0009E6A8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				680D36601DD322B0009E6A8D /* PBXTargetDependency */,
+			);
+			name = YBClearTabelViewCellUITests;
+			productName = YBClearTabelViewCellUITests;
+			productReference = 680D365E1DD322B0009E6A8D /* YBClearTabelViewCellUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		680D36371DD322B0009E6A8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "王迎博";
+				TargetAttributes = {
+					680D363E1DD322B0009E6A8D = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					680D36521DD322B0009E6A8D = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 680D363E1DD322B0009E6A8D;
+					};
+					680D365D1DD322B0009E6A8D = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 680D363E1DD322B0009E6A8D;
+					};
+				};
+			};
+			buildConfigurationList = 680D363A1DD322B0009E6A8D /* Build configuration list for PBXProject "YBClearTabelViewCell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 680D36361DD322B0009E6A8D;
+			productRefGroup = 680D36401DD322B0009E6A8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				680D363E1DD322B0009E6A8D /* YBClearTabelViewCell */,
+				680D36521DD322B0009E6A8D /* YBClearTabelViewCellTests */,
+				680D365D1DD322B0009E6A8D /* YBClearTabelViewCellUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		680D363D1DD322B0009E6A8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				680D364D1DD322B0009E6A8D /* LaunchScreen.storyboard in Resources */,
+				680D364A1DD322B0009E6A8D /* Assets.xcassets in Resources */,
+				680D36481DD322B0009E6A8D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		680D36511DD322B0009E6A8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		680D365C1DD322B0009E6A8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D7483A55984EBFF15585203 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A08C4D00B0982BCFC9851DF2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YBClearTabelViewCell/Pods-YBClearTabelViewCell-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2E96C213D2789D3A45B1D0A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YBClearTabelViewCell/Pods-YBClearTabelViewCell-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		680D363B1DD322B0009E6A8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				680D36451DD322B0009E6A8D /* ViewController.swift in Sources */,
+				680D36431DD322B0009E6A8D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		680D364F1DD322B0009E6A8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				680D36581DD322B0009E6A8D /* YBClearTabelViewCellTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		680D365A1DD322B0009E6A8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				680D36631DD322B0009E6A8D /* YBClearTabelViewCellUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		680D36551DD322B0009E6A8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 680D363E1DD322B0009E6A8D /* YBClearTabelViewCell */;
+			targetProxy = 680D36541DD322B0009E6A8D /* PBXContainerItemProxy */;
+		};
+		680D36601DD322B0009E6A8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 680D363E1DD322B0009E6A8D /* YBClearTabelViewCell */;
+			targetProxy = 680D365F1DD322B0009E6A8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		680D36461DD322B0009E6A8D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				680D36471DD322B0009E6A8D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		680D364B1DD322B0009E6A8D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				680D364C1DD322B0009E6A8D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		680D36651DD322B0009E6A8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		680D36661DD322B0009E6A8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		680D36681DD322B0009E6A8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5814B509E2E70A7A9BAB22E3 /* Pods-YBClearTabelViewCell.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YBClearTabelViewCell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiapin.www.YBClearTabelViewCell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		680D36691DD322B0009E6A8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 286F53C29038C21A0A70F238 /* Pods-YBClearTabelViewCell.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YBClearTabelViewCell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiapin.www.YBClearTabelViewCell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		680D366B1DD322B0009E6A8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YBClearTabelViewCellTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiapin.www.YBClearTabelViewCellTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YBClearTabelViewCell.app/YBClearTabelViewCell";
+			};
+			name = Debug;
+		};
+		680D366C1DD322B0009E6A8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YBClearTabelViewCellTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiapin.www.YBClearTabelViewCellTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YBClearTabelViewCell.app/YBClearTabelViewCell";
+			};
+			name = Release;
+		};
+		680D366E1DD322B0009E6A8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YBClearTabelViewCellUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiapin.www.YBClearTabelViewCellUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YBClearTabelViewCell;
+			};
+			name = Debug;
+		};
+		680D366F1DD322B0009E6A8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YBClearTabelViewCellUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiapin.www.YBClearTabelViewCellUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YBClearTabelViewCell;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		680D363A1DD322B0009E6A8D /* Build configuration list for PBXProject "YBClearTabelViewCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				680D36651DD322B0009E6A8D /* Debug */,
+				680D36661DD322B0009E6A8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		680D36671DD322B0009E6A8D /* Build configuration list for PBXNativeTarget "YBClearTabelViewCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				680D36681DD322B0009E6A8D /* Debug */,
+				680D36691DD322B0009E6A8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		680D366A1DD322B0009E6A8D /* Build configuration list for PBXNativeTarget "YBClearTabelViewCellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				680D366B1DD322B0009E6A8D /* Debug */,
+				680D366C1DD322B0009E6A8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		680D366D1DD322B0009E6A8D /* Build configuration list for PBXNativeTarget "YBClearTabelViewCellUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				680D366E1DD322B0009E6A8D /* Debug */,
+				680D366F1DD322B0009E6A8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 680D36371DD322B0009E6A8D /* Project object */;
+}
